@@ -1,5 +1,17 @@
 # @backstage/catalog-client
 
+## 0.4.0
+
+### Minor Changes
+
+- dbcaa6387a: Extends the `CatalogClient` interface with a `refreshEntity` method.
+
+### Patch Changes
+
+- Updated dependencies
+  - @backstage/catalog-model@0.9.3
+  - @backstage/config@0.1.10
+
 ## 0.3.19
 
 ### Patch Changes

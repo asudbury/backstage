@@ -1,5 +1,20 @@
 # @backstage/plugin-catalog-react
 
+## 0.5.0
+
+### Minor Changes
+
+- dbcaa6387a: Extends the `CatalogClient` interface with a `refreshEntity` method.
+
+### Patch Changes
+
+- cc464a56b3: This makes Type and Lifecycle columns consistent for all table cases and adds a new line in Description column for better readability
+- febddedcb2: Bump `lodash` to remediate `SNYK-JS-LODASH-590103` security vulnerability
+- Updated dependencies
+  - @backstage/catalog-client@0.4.0
+  - @backstage/catalog-model@0.9.3
+  - @backstage/core-components@0.4.3
+
 ## 0.4.6
 
 ### Patch Changes
