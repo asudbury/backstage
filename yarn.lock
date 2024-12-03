@@ -2965,7 +2965,7 @@
   resolved "https://registry.npmjs.org/@gar/promisify/-/promisify-1.1.2.tgz#30aa825f11d438671d585bd44e7fd564535fc210"
   integrity sha512-82cpyJyKRoQoRi+14ibCeGPu0CwypgtBAdBhq1WfvagpCZNKqwXbKwXllYSMG91DhmG4jt9gN8eP6lGOtozuaw==
 
-"@gitbeaker/core@^30.2.0", "@gitbeaker/core@^30.3.0":
+"@gitbeaker/core@^30.3.0":
   version "30.3.0"
   resolved "https://registry.npmjs.org/@gitbeaker/core/-/core-30.3.0.tgz#d005891d47cfacb41d4a3cc8bf3ee8c68c53d378"
   integrity sha512-j7GHsFo6AOuRmLaK4F4Kx967jTy6LFZh5vjmRxjlRvX0qlfl3NJKiQIl30fZz1rPXWdQLAq+kwl1i0BKrWhOpA==
@@ -2974,6 +2974,15 @@
     form-data "^4.0.0"
     li "^1.3.0"
     query-string "^7.0.0"
+    xcase "^2.0.1"
+
+"@gitbeaker/core@^41.3.0":
+  version "41.3.0"
+  resolved "https://registry.npmjs.org/@gitbeaker/core/-/core-41.3.0.tgz#c1e263b6da5c56e6d70eec8907a7728b15b63d03"
+  integrity sha512-ZPy0v71WTSKdELLhG5FkMCxIWCJwRpA7QkvnULiE36sIynQE0WwBNux+GPjjEh6xQ6PfBAB4E/1Uu2YZXiJlNg==
+  dependencies:
+    "@gitbeaker/requester-utils" "^41.3.0"
+    qs "^6.12.2"
     xcase "^2.0.1"
 
 "@gitbeaker/node@^30.2.0":
@@ -2994,6 +3003,16 @@
   dependencies:
     form-data "^4.0.0"
     query-string "^7.0.0"
+    xcase "^2.0.1"
+
+"@gitbeaker/requester-utils@^41.3.0":
+  version "41.3.0"
+  resolved "https://registry.npmjs.org/@gitbeaker/requester-utils/-/requester-utils-41.3.0.tgz#6d45be2189914fc8c7cac0599434fecf03b88eb9"
+  integrity sha512-sNVlp32uaieQ+Giovlu1GJ8hY9jMhY//f3WMHct2GV0U74PkSsixQgQv9XuRKgZalk2uI12iJrBY7gnAA5N8/w==
+  dependencies:
+    picomatch-browser "^2.2.6"
+    qs "^6.12.2"
+    rate-limiter-flexible "^4.0.1"
     xcase "^2.0.1"
 
 "@google-cloud/common@^3.7.0":
@@ -23410,6 +23429,11 @@ pgtools@^0.3.0:
     pg-connection-string "^0.1.3"
     yargs "^5.0.0"
 
+picomatch-browser@^2.2.6:
+  version "2.2.6"
+  resolved "https://registry.npmjs.org/picomatch-browser/-/picomatch-browser-2.2.6.tgz#e0626204575eb49f019f2f2feac24fc3b53e7a8a"
+  integrity sha512-0ypsOQt9D4e3hziV8O4elD9uN0z/jtUEfxVRtNaAAtXIyUx9m/SzlO020i8YNL2aL/E6blOvvHQcin6HZlFy/w==
+
 picomatch@^2.0.4, picomatch@^2.0.5, picomatch@^2.2.1, picomatch@^2.2.2:
   version "2.2.2"
   resolved "https://registry.npmjs.org/picomatch/-/picomatch-2.2.2.tgz#21f333e9b6b8eaff02468f5146ea406d345f4dad"
@@ -24453,10 +24477,17 @@ qs@6.11.0:
   dependencies:
     side-channel "^1.0.4"
 
-qs@6.13.0, qs@^6.10.0, qs@^6.10.1, qs@^6.5.1, qs@^6.7.0, qs@^6.9.1, qs@^6.9.4, qs@^6.9.6:
+qs@6.13.0:
   version "6.13.0"
   resolved "https://registry.npmjs.org/qs/-/qs-6.13.0.tgz#6ca3bd58439f7e245655798997787b0d88a51906"
   integrity sha512-+38qI9SOr8tfZ4QmJNplMUxqjbe7LKvvZgWdExBOmd+egZTtjLB67Gu0HRX3u/XOq7UU2Nx6nsjvS16Z9uwfpg==
+  dependencies:
+    side-channel "^1.0.6"
+
+qs@^6.10.0, qs@^6.10.1, qs@^6.12.2, qs@^6.5.1, qs@^6.7.0, qs@^6.9.1, qs@^6.9.4, qs@^6.9.6:
+  version "6.13.1"
+  resolved "https://registry.npmjs.org/qs/-/qs-6.13.1.tgz#3ce5fc72bd3a8171b85c99b93c65dd20b7d1b16e"
+  integrity sha512-EJPeIn0CYrGu+hli1xilKAPXODtJ12T0sP63Ijx2/khC2JtuaN3JyNIpvmnkmaEtha9ocbG4A4cMcr+TvqvwQg==
   dependencies:
     side-channel "^1.0.6"
 
@@ -24574,6 +24605,11 @@ range-parser@^1.2.1, range-parser@~1.2.1:
   version "1.2.1"
   resolved "https://registry.npmjs.org/range-parser/-/range-parser-1.2.1.tgz#3cf37023d199e1c24d1a55b84800c2f3e6468031"
   integrity sha512-Hrgsx+orqoygnmhFbKaHE6c296J+HTAQXoxEF6gNupROmmGJRoyzfG3ccAveqCBrwr/2yxQ5BVd/GTl5agOwSg==
+
+rate-limiter-flexible@^4.0.1:
+  version "4.0.1"
+  resolved "https://registry.npmjs.org/rate-limiter-flexible/-/rate-limiter-flexible-4.0.1.tgz#79b0ce111abe9c5da41d6fddf7cca93cedd3a8fc"
+  integrity sha512-2/dGHpDFpeA0+755oUkW+EKyklqLS9lu0go9pDsbhqQjZcxfRyJ6LA4JI0+HAdZ2bemD/oOjUeZQB2lCZqXQfQ==
 
 raw-body@2.5.2:
   version "2.5.2"
