@@ -5198,6 +5198,14 @@
     before-after-hook "^2.1.0"
     universal-user-agent "^6.0.0"
 
+"@octokit/endpoint@^10.0.0":
+  version "10.1.1"
+  resolved "https://registry.npmjs.org/@octokit/endpoint/-/endpoint-10.1.1.tgz#1a9694e7aef6aa9d854dc78dd062945945869bcc"
+  integrity sha512-JYjh5rMOwXMJyUpj028cu0Gbp7qe/ihxfJMLc8VZBMMqSwLgOxDI1911gV4Enl1QSavAQNJcwmwBF9M0VvLh6Q==
+  dependencies:
+    "@octokit/types" "^13.0.0"
+    universal-user-agent "^7.0.2"
+
 "@octokit/endpoint@^6.0.1":
   version "6.0.3"
   resolved "https://registry.npmjs.org/@octokit/endpoint/-/endpoint-6.0.3.tgz#dd09b599662d7e1b66374a177ab620d8cdf73487"
@@ -5215,6 +5223,15 @@
     "@octokit/request" "^5.6.0"
     "@octokit/types" "^6.0.3"
     universal-user-agent "^6.0.0"
+
+"@octokit/graphql@^8.1.1":
+  version "8.1.1"
+  resolved "https://registry.npmjs.org/@octokit/graphql/-/graphql-8.1.1.tgz#3cacab5f2e55d91c733e3bf481d3a3f8a5f639c4"
+  integrity sha512-ukiRmuHTi6ebQx/HFRCXKbDlOh/7xEV6QUXaE7MJEKGNAncGI/STSbOkl12qVXZrfZdpXctx5O9X1AIaebiDBg==
+  dependencies:
+    "@octokit/request" "^9.0.0"
+    "@octokit/types" "^13.0.0"
+    universal-user-agent "^7.0.0"
 
 "@octokit/oauth-authorization-url@^4.3.1":
   version "4.3.1"
@@ -5281,6 +5298,13 @@
     deprecation "^2.0.0"
     once "^1.4.0"
 
+"@octokit/request-error@^6.0.1":
+  version "6.1.5"
+  resolved "https://registry.npmjs.org/@octokit/request-error/-/request-error-6.1.5.tgz#907099e341c4e6179db623a0328d678024f54653"
+  integrity sha512-IlBTfGX8Yn/oFPMwSfvugfncK2EwRLjzbrpifNaMY8o/HTEAFqCA1FZxjD9cWvSKBHgrIhc4CSBIzMxiLsbzFQ==
+  dependencies:
+    "@octokit/types" "^13.0.0"
+
 "@octokit/request@^5.3.0", "@octokit/request@^5.4.11", "@octokit/request@^5.4.12", "@octokit/request@^5.4.14", "@octokit/request@^5.6.0":
   version "5.6.0"
   resolved "https://registry.npmjs.org/@octokit/request/-/request-5.6.0.tgz#6084861b6e4fa21dc40c8e2a739ec5eff597e672"
@@ -5293,6 +5317,16 @@
     node-fetch "^2.6.1"
     universal-user-agent "^6.0.0"
 
+"@octokit/request@^9.0.0":
+  version "9.1.3"
+  resolved "https://registry.npmjs.org/@octokit/request/-/request-9.1.3.tgz#42b693bc06238f43af3c037ebfd35621c6457838"
+  integrity sha512-V+TFhu5fdF3K58rs1pGUJIDH5RZLbZm5BI+MNF+6o/ssFNT4vWlCh/tVpF3NxGtP15HUxTTMUbsG5llAuU2CZA==
+  dependencies:
+    "@octokit/endpoint" "^10.0.0"
+    "@octokit/request-error" "^6.0.1"
+    "@octokit/types" "^13.1.0"
+    universal-user-agent "^7.0.2"
+
 "@octokit/rest@^18.1.0", "@octokit/rest@^18.5.3":
   version "18.5.6"
   resolved "https://registry.npmjs.org/@octokit/rest/-/rest-18.5.6.tgz#8c9a7c9329c7bbf478af20df78ddeab0d21f6d89"
@@ -5303,7 +5337,7 @@
     "@octokit/plugin-request-log" "^1.0.2"
     "@octokit/plugin-rest-endpoint-methods" "5.3.1"
 
-"@octokit/types@^13.5.0":
+"@octokit/types@^13.0.0", "@octokit/types@^13.1.0", "@octokit/types@^13.5.0":
   version "13.6.2"
   resolved "https://registry.npmjs.org/@octokit/types/-/types-13.6.2.tgz#e10fc4d2bdd65d836d1ced223b03ad4cfdb525bd"
   integrity sha512-WpbZfZUcZU77DrSW4wbsSgTPfKcp286q3ItaIgvSbBpZJlu6mnYXAkjZz6LVZPXkEvLIM8McanyZejKTYUHipA==
@@ -29882,6 +29916,11 @@ universal-user-agent@^6.0.0:
   version "6.0.0"
   resolved "https://registry.npmjs.org/universal-user-agent/-/universal-user-agent-6.0.0.tgz#3381f8503b251c0d9cd21bc1de939ec9df5480ee"
   integrity sha512-isyNax3wXoKaulPDZWHQqbmIx1k2tb9fb3GGDBRxCscfYV2Ch7WxPArBsFEG8s/safwXTT7H4QGhaIkTp9447w==
+
+universal-user-agent@^7.0.0, universal-user-agent@^7.0.2:
+  version "7.0.2"
+  resolved "https://registry.npmjs.org/universal-user-agent/-/universal-user-agent-7.0.2.tgz#52e7d0e9b3dc4df06cc33cb2b9fd79041a54827e"
+  integrity sha512-0JCqzSKnStlRRQfCdowvqy3cy0Dvtlb8xecj/H8JFZuCze4rwjPZQOgvFvn0Ws/usCHQFGpyr+pB9adaGwXn4Q==
 
 universalify@^0.1.0, universalify@^0.1.2:
   version "0.1.2"
