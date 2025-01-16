@@ -56,7 +56,7 @@
     "@microsoft/api-documenter": "^7.13.47",
     "@microsoft/api-extractor": "^7.18.7",
     "@microsoft/api-extractor-model": "^7.13.5",
-    "@microsoft/tsdoc": "^0.13.2"
+    "@microsoft/tsdoc": "^0.15.1"
   },
   "devDependencies": {
     "@types/webpack": "^5.28.0",
