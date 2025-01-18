@@ -6964,9 +6964,9 @@
     file-system-cache "2.3.0"
 
 "@sucrase/jest-plugin@^2.1.1":
-  version "2.1.1"
-  resolved "https://registry.npmjs.org/@sucrase/jest-plugin/-/jest-plugin-2.1.1.tgz#b1e5192e7057fec159151b6aed96eb5b3c08d5c4"
-  integrity sha512-1j+exUcbLRgka2lq/i0IVOYcmrMW1wYPtxJY/+RvZkAQG9GD7lygj5OiHWFKWmynltAg9+x1d5NWQQYNdBTkpQ==
+  version "2.2.1"
+  resolved "https://registry.npmjs.org/@sucrase/jest-plugin/-/jest-plugin-2.2.1.tgz#659d31f34412fc9c50e6e0622298baaf27b75366"
+  integrity sha512-5fG+kHOlfwPNi82MCvTFQdAg50YQymGbdwH9nzTA9D9FhJVHynTjadXi58gb/Ae17RMvinY0+Fglx33MB056Rg==
   dependencies:
     sucrase "^3.18.0"
 
