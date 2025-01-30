@@ -15456,13 +15456,13 @@ eslint-plugin-monorepo@^0.3.2:
     parse-package-name "^0.1.0"
     path-is-inside "^1.0.2"
 
-eslint-plugin-notice@^0.9.10:
-  version "0.9.10"
-  resolved "https://registry.npmjs.org/eslint-plugin-notice/-/eslint-plugin-notice-0.9.10.tgz#89cf6377bf1c004a219c4e541321ea9125b408c8"
-  integrity sha512-rF79EuqdJKu9hhTmwUkNeSvLmmq03m/NXq/NHwUENHbdJ0wtoyOjxZBhW4QCug8v5xYE6cGe3AWkGqSIe9KUbQ==
+eslint-plugin-notice@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.npmjs.org/eslint-plugin-notice/-/eslint-plugin-notice-1.0.0.tgz#4b98ffdf2274d10f34a4231a74efafdecad6cde4"
+  integrity sha512-M3VLQMZzZpvfTZ/vy9FmClIKq5rLBbQpM0KgfLZPJPrVXpmJYeobmmb+lfJzHWdNm8PWwvw8KlafQWo2N9xx1Q==
   dependencies:
     find-root "^1.1.0"
-    lodash "^4.17.15"
+    lodash "^4.17.21"
     metric-lcs "^0.1.2"
 
 eslint-plugin-react-hooks@^4.0.0:
