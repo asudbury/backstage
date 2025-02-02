@@ -47,7 +47,7 @@
     "fs-extra": "9.1.0",
     "knex": "^2.4.2",
     "lodash": "^4.17.21",
-    "p-limit": "^3.1.0",
+    "p-limit": "^6.2.0",
     "winston": "^3.2.1"
   },
   "devDependencies": {
