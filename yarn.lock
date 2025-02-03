@@ -8580,18 +8580,13 @@
     recast "^0.20.3"
 
 "@types/json-schema-merge-allof@^0.6.0":
-  version "0.6.1"
-  resolved "https://registry.npmjs.org/@types/json-schema-merge-allof/-/json-schema-merge-allof-0.6.1.tgz#c476c2aeed04d8a14882ff872de9ddeca5608e0b"
-  integrity sha512-tBVtkCCbA1oF8vQ2cp2yuGLp0T2f0AZ2dAic64ZftoWQnKqrTYY/+PuiqPKX1XaxoR43ll/EkYcHnJbdbHUS2g==
+  version "0.6.5"
+  resolved "https://registry.npmjs.org/@types/json-schema-merge-allof/-/json-schema-merge-allof-0.6.5.tgz#727eb4e64e5fc64b98bfc955891b257d125f65c1"
+  integrity sha512-5mS11ZUTyFNUVEMpK3uKoPb6BWL/nLgW/ln2VOiI8OOxKEYC4Gl9O3WjS5P49yqVTfkcbCAPKw3T1O4erUah5g==
   dependencies:
     "@types/json-schema" "*"
 
-"@types/json-schema@*", "@types/json-schema@^7.0.4", "@types/json-schema@^7.0.5", "@types/json-schema@^7.0.6", "@types/json-schema@^7.0.7", "@types/json-schema@^7.0.8":
-  version "7.0.9"
-  resolved "https://registry.npmjs.org/@types/json-schema/-/json-schema-7.0.9.tgz#97edc9037ea0c38585320b28964dde3b39e4660d"
-  integrity sha512-qcUXuemtEu+E5wZSJHNxUXeCZhAfXKQ41D+duX+VYPde7xyEVZci+/oXKJL13tnRs9lR2pr4fod59GT6/X1/yQ==
-
-"@types/json-schema@^7.0.9":
+"@types/json-schema@*", "@types/json-schema@^7.0.4", "@types/json-schema@^7.0.5", "@types/json-schema@^7.0.6", "@types/json-schema@^7.0.7", "@types/json-schema@^7.0.8", "@types/json-schema@^7.0.9":
   version "7.0.15"
   resolved "https://registry.npmjs.org/@types/json-schema/-/json-schema-7.0.15.tgz#596a1747233694d50f6ad8a7869fcb6f56cf5841"
   integrity sha512-5+fP8P8MFNC+AyZCDxrB2pkZFPGzqQWUzpSeuuVLvm8VMcorNYavBqoFcxK8bQz4Qsbn4oUEEem4wDLfcysGHA==
