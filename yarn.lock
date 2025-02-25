@@ -1961,19 +1961,6 @@
     uuid "^8.0.0"
     yup "^0.29.3"
 
-"@backstage/catalog-model@^1.7.0":
-  version "0.9.2"
-  dependencies:
-    "@backstage/config" "^0.1.9"
-    "@backstage/errors" "^0.1.2"
-    "@types/json-schema" "^7.0.5"
-    "@types/yup" "^0.29.8"
-    ajv "^7.0.3"
-    json-schema "^0.3.0"
-    lodash "^4.17.21"
-    uuid "^8.0.0"
-    yup "^0.29.3"
-
 "@backstage/catalog-model@^1.7.1":
   version "0.9.2"
   dependencies:
@@ -2000,7 +1987,7 @@
     uuid "^8.0.0"
     yup "^0.29.3"
 
-"@backstage/config@^1.0.3", "@backstage/config@^1.2.0":
+"@backstage/config@^1.0.3":
   version "1.3.1"
   resolved "https://registry.npmjs.org/@backstage/config/-/config-1.3.1.tgz#19669d1c7c923e6f612aa02446226e7f2f71ff0a"
   integrity sha512-2WcfyfE06zqhVxuKRj6vrKXBk9iIqLuAMCcu4EZdyW6vmsiPo8t7Y54CB8ma1u3+GJf5hct9p/xiqIjeObyOFA==
@@ -2107,48 +2094,6 @@
     zen-observable "^0.8.15"
     zod "^3.11.6"
 
-"@backstage/core-components@^0.15.1":
-  version "0.15.1"
-  resolved "https://registry.npmjs.org/@backstage/core-components/-/core-components-0.15.1.tgz#263a2d519e6e286e9a403d33d631f8affe9dbd65"
-  integrity sha512-Vqll9vyExGln1K+M6FriWKlU1jkpwEg0X6WtxrwxcykdKQNAfiyJwU7K/NuPCUEP80TsbHycOPFHdU+SWygI8A==
-  dependencies:
-    "@backstage/config" "^1.2.0"
-    "@backstage/core-plugin-api" "^1.10.0"
-    "@backstage/errors" "^1.2.4"
-    "@backstage/theme" "^0.6.0"
-    "@backstage/version-bridge" "^1.0.10"
-    "@date-io/core" "^1.3.13"
-    "@material-table/core" "^3.1.0"
-    "@material-ui/core" "^4.12.2"
-    "@material-ui/icons" "^4.9.1"
-    "@material-ui/lab" "4.0.0-alpha.61"
-    "@react-hookz/web" "^24.0.0"
-    "@types/react-sparklines" "^1.7.0"
-    ansi-regex "^6.0.1"
-    classnames "^2.2.6"
-    d3-selection "^3.0.0"
-    d3-shape "^3.0.0"
-    d3-zoom "^3.0.0"
-    dagre "^0.8.5"
-    linkify-react "4.1.3"
-    linkifyjs "4.1.3"
-    lodash "^4.17.21"
-    pluralize "^8.0.0"
-    qs "^6.9.4"
-    rc-progress "3.5.1"
-    react-helmet "6.1.0"
-    react-hook-form "^7.12.2"
-    react-idle-timer "5.7.2"
-    react-markdown "^8.0.0"
-    react-sparklines "^1.7.0"
-    react-syntax-highlighter "^15.4.5"
-    react-use "^17.3.2"
-    react-virtualized-auto-sizer "^1.0.11"
-    react-window "^1.8.6"
-    remark-gfm "^3.0.1"
-    zen-observable "^0.10.0"
-    zod "^3.22.4"
-
 "@backstage/core-components@^0.16.1", "@backstage/core-components@^0.16.3":
   version "0.16.3"
   resolved "https://registry.npmjs.org/@backstage/core-components/-/core-components-0.16.3.tgz#3e0da7421c66580ff8e6f2ed08cf64ca4f7d4c38"
@@ -2237,7 +2182,7 @@
     remark-gfm "^1.0.0"
     zen-observable "^0.8.15"
 
-"@backstage/core-plugin-api@^1.0.0", "@backstage/core-plugin-api@^1.0.7", "@backstage/core-plugin-api@^1.10.0", "@backstage/core-plugin-api@^1.10.1", "@backstage/core-plugin-api@^1.10.3":
+"@backstage/core-plugin-api@^1.0.0", "@backstage/core-plugin-api@^1.0.7", "@backstage/core-plugin-api@^1.10.1", "@backstage/core-plugin-api@^1.10.3":
   version "1.10.3"
   resolved "https://registry.npmjs.org/@backstage/core-plugin-api/-/core-plugin-api-1.10.3.tgz#232b3a19b574dd85ab146081bb587d03d871e9ef"
   integrity sha512-Wxd9SGXOfpaQacHkzNVlBmDPtjKQJeUjZKrXgaoc3IDE5hnCViQprULLOmuBTtmDrgnGxKLKOKTe88c3nPggGQ==
@@ -2294,7 +2239,7 @@
     remark-gfm "^1.0.0"
     zen-observable "^0.8.15"
 
-"@backstage/errors@^1.1.2", "@backstage/errors@^1.2.4", "@backstage/errors@^1.2.6":
+"@backstage/errors@^1.1.2", "@backstage/errors@^1.2.6":
   version "1.2.6"
   resolved "https://registry.npmjs.org/@backstage/errors/-/errors-1.2.6.tgz#843a73d03433089f0a3b8a4530a53be013c34c6c"
   integrity sha512-Zmpet5DS5670RHXIFUY/fcJbUxRbS1D/l+Ai7V9k3qGQw7TfCrtu5hiGaBAi1EjjJ0xdA8L9Y3Smyc7nDWB/YQ==
@@ -2366,7 +2311,7 @@
     "@backstage/version-bridge" "^1.0.10"
     zod "^3.22.4"
 
-"@backstage/integration-react@^1.2.0", "@backstage/integration-react@^1.2.1", "@backstage/integration-react@^1.2.3":
+"@backstage/integration-react@^1.2.1", "@backstage/integration-react@^1.2.3":
   version "1.2.3"
   resolved "https://registry.npmjs.org/@backstage/integration-react/-/integration-react-1.2.3.tgz#62f744ace86a780f2a9ee4d971135d9f1a165212"
   integrity sha512-F/tJXnvxIZQtB5P5emhhdSsq5TGgZBLjKyk4sfbNQsl2DGAhmcgK3piyvf/nPR1SMsXxTO8LVg6/QZk9eq9RBQ==
@@ -2418,7 +2363,7 @@
     "@backstage/plugin-permission-common" "^0.8.4"
     "@backstage/plugin-search-common" "^1.2.17"
 
-"@backstage/plugin-catalog-react@^1.0.0", "@backstage/plugin-catalog-react@^1.14.0", "@backstage/plugin-catalog-react@^1.14.2":
+"@backstage/plugin-catalog-react@^1.0.0", "@backstage/plugin-catalog-react@^1.14.2":
   version "1.15.1"
   resolved "https://registry.npmjs.org/@backstage/plugin-catalog-react/-/plugin-catalog-react-1.15.1.tgz#1c28fe840aaf237ac9ef8c3adb1ed662b5f5d601"
   integrity sha512-cIZaQbHqg/xVaqNO0MtXlq4nnVi7/TwPjX5iP0PnVQFXepiVkmQs5rU+yXmyNRAtvWimbXT0UMZyq7e0FDjACg==
@@ -2516,10 +2461,10 @@
   dependencies:
     "@material-ui/core" "^4.12.2"
 
-"@backstage/theme@^0.6.0", "@backstage/theme@^0.6.3":
-  version "0.6.3"
-  resolved "https://registry.npmjs.org/@backstage/theme/-/theme-0.6.3.tgz#75e05ff46dd6d9139d4d2dae15dc58403da3de64"
-  integrity sha512-5AmSqPciPsYYJ8pCvGEElXZK2gKILcv/p7CspZP2Zkz9AxGZHqdj1OdP0K0rZi9lUsc+Gvwl43z9Ty851dfLHw==
+"@backstage/theme@^0.6.2", "@backstage/theme@^0.6.3":
+  version "0.6.4"
+  resolved "https://registry.npmjs.org/@backstage/theme/-/theme-0.6.4.tgz#132eb1c8586e30cbf1bfe22b71f52489be00f8e5"
+  integrity sha512-NLhdBf7TaAK08puB5T+v6E54Psy/XRMfQnFbDITU+58d9WTgbz79JK+lNk9ZL4H0nw3/+64mekxNgIcwZAY7Lg==
   dependencies:
     "@emotion/react" "^11.10.5"
     "@emotion/styled" "^11.10.5"
@@ -6234,23 +6179,25 @@
     react-router-dom "6.0.0-beta.0"
     react-use "^17.2.4"
 
-"@roadiehq/backstage-plugin-github-insights@^2.5.1":
-  version "2.5.1"
-  resolved "https://registry.npmjs.org/@roadiehq/backstage-plugin-github-insights/-/backstage-plugin-github-insights-2.5.1.tgz#f6f4128c703b50a5c27503f4ad5116c71cf47552"
-  integrity sha512-/TkQYw2yutZMgUlpThpfvO0DjFav9ZQrGkL5EOnFamXZ/8BP4t5p46qjhVmpQsDH1ElVDwjfSxZo8lN1dCfhCQ==
+"@roadiehq/backstage-plugin-github-insights@^3.1.3":
+  version "3.1.3"
+  resolved "https://registry.npmjs.org/@roadiehq/backstage-plugin-github-insights/-/backstage-plugin-github-insights-3.1.3.tgz#8bcc041dba04be8212e880d7d774d5b8e8e706f8"
+  integrity sha512-6IOLd4K+Q8Wyd5uUPNFqhxhU1KLoau7iO/bI1LQ69dXszfHCdFx1ydkW6KAhvhi3RGPsEcb5H8db4wWmQDH+dA==
   dependencies:
-    "@backstage/catalog-model" "^1.7.0"
-    "@backstage/core-components" "^0.15.1"
-    "@backstage/core-plugin-api" "^1.10.0"
-    "@backstage/integration-react" "^1.2.0"
-    "@backstage/plugin-catalog-react" "^1.14.0"
-    "@backstage/theme" "^0.6.0"
+    "@backstage/catalog-model" "^1.7.1"
+    "@backstage/core-components" "^0.16.1"
+    "@backstage/core-plugin-api" "^1.10.1"
+    "@backstage/integration" "^1.16.1"
+    "@backstage/integration-react" "^1.2.1"
+    "@backstage/plugin-catalog-react" "^1.14.2"
+    "@backstage/theme" "^0.6.2"
     "@date-io/core" "2.10.7"
     "@material-ui/core" "^4.12.2"
     "@material-ui/icons" "^4.9.1"
     "@material-ui/lab" "4.0.0-alpha.45"
     "@octokit/rest" "^19.0.3"
     "@octokit/types" "^9.0.0"
+    "@roadiehq/github-auth-utils-react" "^1.0.1"
     git-url-parse "^14.0.0"
     history "^5.0.0"
     immer "9.0.7"
