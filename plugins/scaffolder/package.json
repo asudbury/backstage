@@ -61,7 +61,7 @@
     "react-router-dom": "7.3.0",
     "react-use": "^17.2.4",
     "use-immer": "^0.6.0",
-    "zen-observable": "^0.8.15"
+    "zen-observable": "^0.10.0"
   },
   "devDependencies": {
     "@backstage/cli": "^0.7.12",
