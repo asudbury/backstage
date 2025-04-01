@@ -23742,9 +23742,9 @@ mkdirp@^3.0.1:
   integrity sha512-+NsyUUAZDmo6YVHzL/stxSu3t9YS1iljliy3BSDrXJ/dkn1KYdmtZODGGjLcc9XLgVVpH4KshHB8XmZgMhaBXg==
 
 mock-fs@^5.1.0:
-  version "5.1.0"
-  resolved "https://registry.npmjs.org/mock-fs/-/mock-fs-5.1.0.tgz#a9aebd4e6d74a626f84b86eae8a372bd061754e8"
-  integrity sha512-wXdQ2nIk81TYIGLphUnbXl8akQpjb9ItfZefMcTxZcoe+djMkd5POU8fQdSEErxVAeT4CgDHWveYquys4H6Cmw==
+  version "5.5.0"
+  resolved "https://registry.npmjs.org/mock-fs/-/mock-fs-5.5.0.tgz#94a46d299aaa588e735a201cbe823c876e91f385"
+  integrity sha512-d/P1M/RacgM3dB0sJ8rjeRNXxtapkPCUnMGmIN0ixJ16F/E4GUZCvWcSGfWGz8eaXYvn1s9baUwNjI4LOPEjiA==
 
 modify-values@^1.0.0:
   version "1.0.1"
