@@ -9232,11 +9232,10 @@
   integrity sha512-wWKOClTTiizcZhXnPY4wikVAwmdYHp8q6DmC+EJUzAMsycb7HB32Kh9RN4+0gExjmPmZSAQjgURXIGATPegAvA==
 
 "@types/rollup-plugin-peer-deps-external@^2.2.0":
-  version "2.2.0"
-  resolved "https://registry.npmjs.org/@types/rollup-plugin-peer-deps-external/-/rollup-plugin-peer-deps-external-2.2.0.tgz#eae7d8b9d27fa037f5bcaded24e389f85b81973c"
-  integrity sha512-BiztED+KYJPBI3ihLSOuuZSzy836WAOpC9UrMtDqk3+VeByR8A5pJJ9pCVnq/dfB4wyCeiFL+FlyJnqZuP3pxg==
+  version "2.2.5"
+  resolved "https://registry.npmjs.org/@types/rollup-plugin-peer-deps-external/-/rollup-plugin-peer-deps-external-2.2.5.tgz#8df65fb70c26b0054117ce54dbd01d3a2dfa2e1d"
+  integrity sha512-BvxHEsbzspw1BDyktFdjx5AQ5OHZGFJuDUAj+dDzDT0pfnz9/vr8sxxQwGINsptaltxbTVBTAxlZujM62F79XA==
   dependencies:
-    "@types/node" "*"
     rollup "^0.63.4"
 
 "@types/rollup-plugin-postcss@^2.0.0":
