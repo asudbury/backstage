@@ -252,14 +252,7 @@
   dependencies:
     "@types/json-schema" "^7.0.11"
 
-"@azure/abort-controller@^1.0.0":
-  version "1.0.2"
-  resolved "https://registry.npmjs.org/@azure/abort-controller/-/abort-controller-1.0.2.tgz#822405c966b2aec16fb62c1b19d37eaccf231995"
-  integrity sha512-XUyTo+bcyxHEf+jlN2MXA7YU9nxVehaubngHV1MIZZaqYmZqykkoeAz/JMMEeR7t3TcyDwbFa3Zw8BZywmIx4g==
-  dependencies:
-    tslib "^2.0.0"
-
-"@azure/abort-controller@^2.0.0":
+"@azure/abort-controller@^2.0.0", "@azure/abort-controller@^2.1.2":
   version "2.1.2"
   resolved "https://registry.npmjs.org/@azure/abort-controller/-/abort-controller-2.1.2.tgz#42fe0ccab23841d9905812c58f1082d27784566d"
   integrity sha512-nBrLsEWm4J2u5LpAPjxADTlq3trDgVZZXHNKabeXZtpq3d3AbN/KGO82R87rdDz5/lYB024rtEf10/q0urNgsA==
@@ -271,23 +264,7 @@
   resolved "https://registry.npmjs.org/@azure/core-asynciterator-polyfill/-/core-asynciterator-polyfill-1.0.0.tgz#dcccebb88406e5c76e0e1d52e8cc4c43a68b3ee7"
   integrity sha512-kmv8CGrPfN9SwMwrkiBK9VTQYxdFQEGe0BmQk+M8io56P9KNzpAxcWE/1fxJj7uouwN4kXF0BHW8DNlgx+wtCg==
 
-"@azure/core-auth@^1.1.3":
-  version "1.1.4"
-  resolved "https://registry.npmjs.org/@azure/core-auth/-/core-auth-1.1.4.tgz#af9a334acf3cb9c49e6013e6caf6dc9d43476030"
-  integrity sha512-+j1embyH1jqf04AIfJPdLafd5SC1y6z1Jz4i+USR1XkTp6KM8P5u4/AjmWMVoEQdM/M29PJcRDZcCEWjK9S1bw==
-  dependencies:
-    "@azure/abort-controller" "^1.0.0"
-    tslib "^2.0.0"
-
-"@azure/core-auth@^1.3.0":
-  version "1.3.2"
-  resolved "https://registry.npmjs.org/@azure/core-auth/-/core-auth-1.3.2.tgz#6a2c248576c26df365f6c7881ca04b7f6d08e3d0"
-  integrity sha512-7CU6DmCHIZp5ZPiZ9r3J17lTKMmYsm/zGvNkjArQwPkrLlZ1TZ+EUYfGgh2X31OLMVAQCTJZW4cXHJi02EbJnA==
-  dependencies:
-    "@azure/abort-controller" "^1.0.0"
-    tslib "^2.2.0"
-
-"@azure/core-auth@^1.4.0", "@azure/core-auth@^1.8.0", "@azure/core-auth@^1.9.0":
+"@azure/core-auth@^1.3.0", "@azure/core-auth@^1.4.0", "@azure/core-auth@^1.8.0", "@azure/core-auth@^1.9.0":
   version "1.9.0"
   resolved "https://registry.npmjs.org/@azure/core-auth/-/core-auth-1.9.0.tgz#ac725b03fabe3c892371065ee9e2041bee0fd1ac"
   integrity sha512-FPwHpZywuyasDSLMqJ6fhbOK3TqUdviZNF8OqRGA4W5Ewib2lEEZ+pBsYcBa88B2NGO/SEnYPGhyBqNlE8ilSw==
@@ -296,22 +273,10 @@
     "@azure/core-util" "^1.11.0"
     tslib "^2.6.2"
 
-"@azure/core-client@^1.0.0":
-  version "1.2.2"
-  resolved "https://registry.npmjs.org/@azure/core-client/-/core-client-1.2.2.tgz#29c781e5ccd4da968cea89d3b909ab573a3a7bec"
-  integrity sha512-VYFR2qiczjBrSfpQSbo5s8FJhXaJFz2tP01MOrpNJaOqnSNEKcY35I79b1Ty7s8qHGvc5/YMJ745l3B7abncFQ==
-  dependencies:
-    "@azure/abort-controller" "^1.0.0"
-    "@azure/core-asynciterator-polyfill" "^1.0.0"
-    "@azure/core-auth" "^1.3.0"
-    "@azure/core-rest-pipeline" "^1.1.0"
-    "@azure/core-tracing" "1.0.0-preview.12"
-    tslib "^2.2.0"
-
-"@azure/core-client@^1.9.2":
-  version "1.9.2"
-  resolved "https://registry.npmjs.org/@azure/core-client/-/core-client-1.9.2.tgz#6fc69cee2816883ab6c5cdd653ee4f2ff9774f74"
-  integrity sha512-kRdry/rav3fUKHl/aDLd/pDLcB+4pOFwPPTVEExuMyaI5r+JBbMWqRbCY1pn5BniDaU3lRxO9eaQ1AmSMehl/w==
+"@azure/core-client@^1.0.0", "@azure/core-client@^1.3.0", "@azure/core-client@^1.6.2", "@azure/core-client@^1.9.2":
+  version "1.9.3"
+  resolved "https://registry.npmjs.org/@azure/core-client/-/core-client-1.9.3.tgz#9ca8f3bdc730d10d58f65c9c2c9ca992bc15bb67"
+  integrity sha512-/wGw8fJ4mdpJ1Cum7s1S+VQyXt1ihwKLzfabS1O/RDADnmzVc01dHn44qD0BvGH6KlZNzOMW95tEpKqhkCChPA==
   dependencies:
     "@azure/abort-controller" "^2.0.0"
     "@azure/core-auth" "^1.4.0"
@@ -321,36 +286,24 @@
     "@azure/logger" "^1.0.0"
     tslib "^2.6.2"
 
-"@azure/core-http@^1.2.0":
-  version "1.2.2"
-  resolved "https://registry.npmjs.org/@azure/core-http/-/core-http-1.2.2.tgz#a6f7717184fd2657d3acabd1d64dfdc0bd531ce3"
-  integrity sha512-9eu2OcbR7e44gqBy4U1Uv8NTWgLIMwKXMEGgO2MahsJy5rdTiAhs5fJHQffPq8uX2MFh21iBODwO9R/Xlov88A==
+"@azure/core-http-compat@^2.0.0":
+  version "2.2.0"
+  resolved "https://registry.npmjs.org/@azure/core-http-compat/-/core-http-compat-2.2.0.tgz#20ff535b2460151ea7e68767287996c84cd28738"
+  integrity sha512-1kW8ZhN0CfbNOG6C688z5uh2yrzALE7dDXHiR9dY4vt+EbhGZQSbjDa5bQd2rf3X2pdWMsXbqbArxUyeNdvtmg==
   dependencies:
-    "@azure/abort-controller" "^1.0.0"
-    "@azure/core-auth" "^1.1.3"
-    "@azure/core-tracing" "1.0.0-preview.9"
-    "@azure/logger" "^1.0.0"
-    "@opentelemetry/api" "^0.10.2"
-    "@types/node-fetch" "^2.5.0"
-    "@types/tunnel" "^0.0.1"
-    form-data "^3.0.0"
-    node-fetch "^2.6.0"
-    process "^0.11.10"
-    tough-cookie "^4.0.0"
-    tslib "^2.0.0"
-    tunnel "^0.0.6"
-    uuid "^8.3.0"
-    xml2js "^0.4.19"
+    "@azure/abort-controller" "^2.0.0"
+    "@azure/core-client" "^1.3.0"
+    "@azure/core-rest-pipeline" "^1.19.0"
 
-"@azure/core-lro@^1.0.2":
-  version "1.0.3"
-  resolved "https://registry.npmjs.org/@azure/core-lro/-/core-lro-1.0.3.tgz#1ddfb4ecdb81ce87b5f5d972ffe2acbbc46e524e"
-  integrity sha512-Py2crJ84qx1rXkzIwfKw5Ni4WJuzVU7KAF6i1yP3ce8fbynUeu8eEWS4JGtSQgU7xv02G55iPDROifmSDbxeHA==
+"@azure/core-lro@^2.2.0":
+  version "2.7.2"
+  resolved "https://registry.npmjs.org/@azure/core-lro/-/core-lro-2.7.2.tgz#787105027a20e45c77651a98b01a4d3b01b75a08"
+  integrity sha512-0YIpccoX8m/k00O7mDDMdJpbr6mf1yWo2dfmxt5A8XVZVVMz2SSKaEbMCeJRvgQ0IaSlqhjT47p4hVIRRy90xw==
   dependencies:
-    "@azure/abort-controller" "^1.0.0"
-    "@azure/core-http" "^1.2.0"
-    events "^3.0.0"
-    tslib "^2.0.0"
+    "@azure/abort-controller" "^2.0.0"
+    "@azure/core-util" "^1.2.0"
+    "@azure/logger" "^1.0.0"
+    tslib "^2.6.2"
 
 "@azure/core-paging@^1.1.1":
   version "1.1.3"
@@ -359,25 +312,10 @@
   dependencies:
     "@azure/core-asynciterator-polyfill" "^1.0.0"
 
-"@azure/core-rest-pipeline@^1.1.0":
-  version "1.1.1"
-  resolved "https://registry.npmjs.org/@azure/core-rest-pipeline/-/core-rest-pipeline-1.1.1.tgz#53b4278f5c417c3da9f133511064375362b68a12"
-  integrity sha512-ObF8iTEDXIG7/NlL28ni9bR3XLJwgm2S3GWO4aNW6CsTCFVoY9HMdbBtN7xOB+pUQwifehifXNnootbzzuwJnw==
-  dependencies:
-    "@azure/abort-controller" "^1.0.0"
-    "@azure/core-auth" "^1.3.0"
-    "@azure/core-tracing" "1.0.0-preview.12"
-    "@azure/logger" "^1.0.0"
-    form-data "^3.0.0"
-    http-proxy-agent "^4.0.1"
-    https-proxy-agent "^5.0.0"
-    tslib "^2.2.0"
-    uuid "^8.3.0"
-
-"@azure/core-rest-pipeline@^1.17.0", "@azure/core-rest-pipeline@^1.9.1":
-  version "1.18.1"
-  resolved "https://registry.npmjs.org/@azure/core-rest-pipeline/-/core-rest-pipeline-1.18.1.tgz#380e7d3f15be80de83ee414176adb32824402f38"
-  integrity sha512-/wS73UEDrxroUEVywEm7J0p2c+IIiVxyfigCGfsKvCxxCET4V/Hef2aURqltrXMRjNmdmt5IuOgIpl8f6xdO5A==
+"@azure/core-rest-pipeline@^1.1.0", "@azure/core-rest-pipeline@^1.10.1", "@azure/core-rest-pipeline@^1.17.0", "@azure/core-rest-pipeline@^1.19.0", "@azure/core-rest-pipeline@^1.9.1":
+  version "1.19.1"
+  resolved "https://registry.npmjs.org/@azure/core-rest-pipeline/-/core-rest-pipeline-1.19.1.tgz#e740676444777a04dc55656d8660131dfd926924"
+  integrity sha512-zHeoI3NCs53lLBbWNzQycjnYKsA1CVKlnzSNuSFcUDwBp8HHVObePxrM7HaX+Ha5Ks639H7chNC9HOaIhNS03w==
   dependencies:
     "@azure/abort-controller" "^2.0.0"
     "@azure/core-auth" "^1.8.0"
@@ -388,15 +326,6 @@
     https-proxy-agent "^7.0.0"
     tslib "^2.6.2"
 
-"@azure/core-tracing@1.0.0-preview.10":
-  version "1.0.0-preview.10"
-  resolved "https://registry.npmjs.org/@azure/core-tracing/-/core-tracing-1.0.0-preview.10.tgz#e7060272145dddad4486765030d1b037cd52a8ea"
-  integrity sha512-iIwjtMwQnsxB7cYkugMx+s4W1nfy3+pT/ceo+uW1fv4YDgYe84nh+QP0fEC9IH/3UATLSWbIBemdMHzk2APUrw==
-  dependencies:
-    "@opencensus/web-types" "0.0.7"
-    "@opentelemetry/api" "^0.10.2"
-    tslib "^2.0.0"
-
 "@azure/core-tracing@1.0.0-preview.12":
   version "1.0.0-preview.12"
   resolved "https://registry.npmjs.org/@azure/core-tracing/-/core-tracing-1.0.0-preview.12.tgz#f53ff452c0742ad981c244f97d93d37ca2b5e139"
@@ -405,29 +334,28 @@
     "@opentelemetry/api" "^1.0.0"
     tslib "^2.2.0"
 
-"@azure/core-tracing@1.0.0-preview.9":
-  version "1.0.0-preview.9"
-  resolved "https://registry.npmjs.org/@azure/core-tracing/-/core-tracing-1.0.0-preview.9.tgz#84f3b85572013f9d9b85e1e5d89787aa180787eb"
-  integrity sha512-zczolCLJ5QG42AEPQ+Qg9SRYNUyB+yZ5dzof4YEc+dyWczO9G2sBqbAjLB7IqrsdHN2apkiB2oXeDKCsq48jug==
-  dependencies:
-    "@opencensus/web-types" "0.0.7"
-    "@opentelemetry/api" "^0.10.2"
-    tslib "^2.0.0"
-
-"@azure/core-tracing@^1.0.0", "@azure/core-tracing@^1.0.1":
+"@azure/core-tracing@^1.0.0", "@azure/core-tracing@^1.0.1", "@azure/core-tracing@^1.1.2":
   version "1.2.0"
   resolved "https://registry.npmjs.org/@azure/core-tracing/-/core-tracing-1.2.0.tgz#7be5d53c3522d639cf19042cbcdb19f71bc35ab2"
   integrity sha512-UKTiEJPkWcESPYJz3X5uKRYyOcJD+4nYph+KpfdPRnQJVrZfk0KJgdnaAWKfhsBBtAf/D58Az4AvCJEmWgIBAg==
   dependencies:
     tslib "^2.6.2"
 
-"@azure/core-util@^1.11.0", "@azure/core-util@^1.6.1":
+"@azure/core-util@^1.11.0", "@azure/core-util@^1.2.0", "@azure/core-util@^1.6.1":
   version "1.11.0"
   resolved "https://registry.npmjs.org/@azure/core-util/-/core-util-1.11.0.tgz#f530fc67e738aea872fbdd1cc8416e70219fada7"
   integrity sha512-DxOSLua+NdpWoSqULhjDyAZTXFdP/LKkqtYuxxz1SCN289zk3OG8UOpnCQAz/tygyACBtWp/BoO72ptK7msY8g==
   dependencies:
     "@azure/abort-controller" "^2.0.0"
     tslib "^2.6.2"
+
+"@azure/core-xml@^1.4.3":
+  version "1.4.5"
+  resolved "https://registry.npmjs.org/@azure/core-xml/-/core-xml-1.4.5.tgz#6ebffa860799cb657f0ca63a5992d359d4aa4b2d"
+  integrity sha512-gT4H8mTaSXRz7eGTuQyq1aIJnJqeXzpOe9Ay7Z3FrCouer14CbV3VzjnJrNrQfbBpGBLO9oy8BmrY75A0p53cA==
+  dependencies:
+    fast-xml-parser "^5.0.7"
+    tslib "^2.8.1"
 
 "@azure/identity@^1.5.0":
   version "1.5.0"
@@ -533,19 +461,23 @@
     uuid "^8.3.0"
 
 "@azure/storage-blob@^12.5.0":
-  version "12.5.0"
-  resolved "https://registry.npmjs.org/@azure/storage-blob/-/storage-blob-12.5.0.tgz#1ddd8837d9a15ebe355e795375d13b406f2cb496"
-  integrity sha512-DgoefgODst2IPkkQsNdhtYdyJgSsAZC1pEujO6aD5y7uFy5GnzhYliobSrp204jYRyK5XeJ9iiePmy/SPtTbLA==
+  version "12.27.0"
+  resolved "https://registry.npmjs.org/@azure/storage-blob/-/storage-blob-12.27.0.tgz#3062930411173a28468bd380e0ad2c6328d7288a"
+  integrity sha512-IQjj9RIzAKatmNca3D6bT0qJ+Pkox1WZGOg2esJF2YLHb45pQKOwGPIAV+w3rfgkj7zV3RMxpn/c6iftzSOZJQ==
   dependencies:
-    "@azure/abort-controller" "^1.0.0"
-    "@azure/core-http" "^1.2.0"
-    "@azure/core-lro" "^1.0.2"
+    "@azure/abort-controller" "^2.1.2"
+    "@azure/core-auth" "^1.4.0"
+    "@azure/core-client" "^1.6.2"
+    "@azure/core-http-compat" "^2.0.0"
+    "@azure/core-lro" "^2.2.0"
     "@azure/core-paging" "^1.1.1"
-    "@azure/core-tracing" "1.0.0-preview.10"
+    "@azure/core-rest-pipeline" "^1.10.1"
+    "@azure/core-tracing" "^1.1.2"
+    "@azure/core-util" "^1.6.1"
+    "@azure/core-xml" "^1.4.3"
     "@azure/logger" "^1.0.0"
-    "@opentelemetry/api" "^0.10.2"
     events "^3.0.0"
-    tslib "^2.0.0"
+    tslib "^2.2.0"
 
 "@babel/code-frame@7.0.0":
   version "7.0.0"
@@ -6024,27 +5956,10 @@
   dependencies:
     fast-deep-equal "^3.1.3"
 
-"@opencensus/web-types@0.0.7":
-  version "0.0.7"
-  resolved "https://registry.npmjs.org/@opencensus/web-types/-/web-types-0.0.7.tgz#4426de1fe5aa8f624db395d2152b902874f0570a"
-  integrity sha512-xB+w7ZDAu3YBzqH44rCmG9/RlrOmFuDPt/bpf17eJr8eZSrLt7nc7LnWdxM9Mmoj/YKMHpxRg28txu3TcpiL+g==
-
-"@opentelemetry/api@^0.10.2":
-  version "0.10.2"
-  resolved "https://registry.npmjs.org/@opentelemetry/api/-/api-0.10.2.tgz#9647b881f3e1654089ff7ea59d587b2d35060654"
-  integrity sha512-GtpMGd6vkzDMYcpu2t9LlhEgMy/SzBwRnz48EejlRArYqZzqSzAsKmegUK7zHgl+EOIaK9mKHhnRaQu3qw20cA==
-  dependencies:
-    "@opentelemetry/context-base" "^0.10.2"
-
 "@opentelemetry/api@^1.0.0":
   version "1.0.1"
   resolved "https://registry.npmjs.org/@opentelemetry/api/-/api-1.0.1.tgz#03c72f548431da5820a0c8864d1401e348e7e79f"
   integrity sha512-H5Djcc2txGAINgf3TNaq4yFofYSIK3722PM89S/3R8FuI/eqi1UscajlXk7EBkG9s2pxss/q6SHlpturaavXaw==
-
-"@opentelemetry/context-base@^0.10.2":
-  version "0.10.2"
-  resolved "https://registry.npmjs.org/@opentelemetry/context-base/-/context-base-0.10.2.tgz#55bea904b2b91aa8a8675df9eaba5961bddb1def"
-  integrity sha512-hZNKjKOYsckoOEgBziGMnBcX0M7EtstnCmwz5jZUOUYwlZ+/xxX6z3jPu1XVO2Jivk0eLfuP9GP+vFD49CMetw==
 
 "@panva/asn1.js@^1.0.0":
   version "1.0.0"
@@ -8882,7 +8797,7 @@
   resolved "https://registry.npmjs.org/@types/ms/-/ms-0.7.31.tgz#31b7ca6407128a3d2bbc27fe2d21b345397f6197"
   integrity sha512-iiUgKzV9AuaEkZqkOLDIvlQiL6ltuZd9tGcW3gwpnX8JbuiuhFlEGmmFXEXkN50Cvq7Os88IY2v0dkDqXYWVgA==
 
-"@types/node-fetch@^2.5.0", "@types/node-fetch@^2.5.7", "@types/node-fetch@^2.6.9":
+"@types/node-fetch@^2.5.7", "@types/node-fetch@^2.6.9":
   version "2.6.12"
   resolved "https://registry.npmjs.org/@types/node-fetch/-/node-fetch-2.6.12.tgz#8ab5c3ef8330f13100a7479e2cd56d3386830a03"
   integrity sha512-8nneRWKCg3rMtF69nLQJnOYUcbafYeFSjqkw3jCRLsqkWFlHaoQrr5mXmofFGOx3DKn7UfmBMyov8ySvLRVldA==
@@ -9428,13 +9343,6 @@
   version "2.0.7"
   resolved "https://registry.npmjs.org/@types/trusted-types/-/trusted-types-2.0.7.tgz#baccb07a970b91707df3a3e8ba6896c57ead2d11"
   integrity sha512-ScaPdn1dQczgbl0QFTeTOmVHFULt394XJgOQNoyVhZ6r2vLnMLJfBPd53SB52T/3G36VI1/g2MZaX0cwDuXsfw==
-
-"@types/tunnel@^0.0.1":
-  version "0.0.1"
-  resolved "https://registry.npmjs.org/@types/tunnel/-/tunnel-0.0.1.tgz#0d72774768b73df26f25df9184273a42da72b19c"
-  integrity sha512-AOqu6bQu5MSWwYvehMXLukFHnupHrpZ8nvgae5Ggie9UwzDR1CCwoXgSSWNZJuyOlCdfdsWMA5F2LlmvyoTv8A==
-  dependencies:
-    "@types/node" "*"
 
 "@types/uglify-js@*":
   version "3.0.4"
@@ -16351,6 +16259,13 @@ fast-xml-parser@^4.4.1, fast-xml-parser@^4.5.0:
   integrity sha512-RKihhV+SHsIUGXObeVy9AXiBbFwkVk7Syp8XgwN5U3JV416+Gwp/GO9i0JYKmikykgz/UHRrrV4ROuZEo/T0ig==
   dependencies:
     strnum "^1.1.1"
+
+fast-xml-parser@^5.0.7:
+  version "5.2.0"
+  resolved "https://registry.npmjs.org/fast-xml-parser/-/fast-xml-parser-5.2.0.tgz#a1a209c5d8e161989a3bce0942a02aeef460c9ef"
+  integrity sha512-Uw9+Mjt4SBRud1IcaYuW/O0lW8SKKdMl5g7g24HiIuyH5fQSD+AVLybSlJtqLYEbytVFjWQa5DMGcNgeksdRBg==
+  dependencies:
+    strnum "^2.0.5"
 
 fastest-stable-stringify@^2.0.2:
   version "2.0.2"
@@ -29996,6 +29911,11 @@ strnum@^1.1.1:
   resolved "https://registry.npmjs.org/strnum/-/strnum-1.1.2.tgz#57bca4fbaa6f271081715dbc9ed7cee5493e28e4"
   integrity sha512-vrN+B7DBIoTTZjnPNewwhx6cBA/H+IS7rfW68n7XxC1y7uoiGQBxaKzqucGUgavX15dJgiGztLJ8vxuEzwqBdA==
 
+strnum@^2.0.5:
+  version "2.0.5"
+  resolved "https://registry.npmjs.org/strnum/-/strnum-2.0.5.tgz#40700b1b5bf956acdc755e98e90005d7657aaaea"
+  integrity sha512-YAT3K/sgpCUxhxNMrrdhtod3jckkpYwH6JAuwmUdXZsmzH1wUyzTMrrK2wYCEEqlKwrWDd35NeuUkbBy/1iK+Q==
+
 strong-log-transformer@^2.1.0:
   version "2.1.0"
   resolved "https://registry.npmjs.org/strong-log-transformer/-/strong-log-transformer-2.1.0.tgz#0f5ed78d325e0421ac6f90f7f10e691d6ae3ae10"
@@ -31131,7 +31051,7 @@ tunnel-agent@^0.6.0:
   dependencies:
     safe-buffer "^5.0.1"
 
-tunnel@0.0.6, tunnel@^0.0.6:
+tunnel@0.0.6:
   version "0.0.6"
   resolved "https://registry.npmjs.org/tunnel/-/tunnel-0.0.6.tgz#72f1314b34a5b192db012324df2cc587ca47f92c"
   integrity sha512-1h/Lnq9yajKY2PEbBadPXj3VxsDDu844OnaAo52UVmIzIvwwtBPIuNvkjuzBlTWpfJyUbG3ez0KSBibQkj4ojg==
@@ -32931,7 +32851,7 @@ xml2js@0.4.19:
     sax ">=0.6.0"
     xmlbuilder "~9.0.1"
 
-xml2js@^0.4.11, xml2js@^0.4.19, xml2js@^0.4.23:
+xml2js@^0.4.11, xml2js@^0.4.23:
   version "0.4.23"
   resolved "https://registry.npmjs.org/xml2js/-/xml2js-0.4.23.tgz#a0c69516752421eb2ac758ee4d4ccf58843eac66"
   integrity sha512-ySPiMjM0+pLDftHgXY4By0uswI3SPKLDw/i3UXbnO8M/p28zqexCUoPmQFrYD+/1BzhGJSs2i1ERWKJAtiLrug==
