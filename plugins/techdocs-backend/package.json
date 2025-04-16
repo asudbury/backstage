@@ -44,7 +44,7 @@
     "dockerode": "^4.0.2",
     "express": "^4.17.1",
     "express-promise-router": "^4.1.0",
-    "fs-extra": "9.1.0",
+    "fs-extra": "11.3.0",
     "knex": "^2.4.2",
     "lodash": "^4.17.21",
     "p-limit": "^6.2.0",
