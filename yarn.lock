@@ -8481,15 +8481,10 @@
   dependencies:
     "@types/node" "*"
 
-"@types/humanize-duration@^3.18.1":
-  version "3.18.1"
-  resolved "https://registry.npmjs.org/@types/humanize-duration/-/humanize-duration-3.18.1.tgz#10090d596053703e7de0ac43a37b96cd9fc78309"
-  integrity sha512-MUgbY3CF7hg/a/jogixmAufLjJBQT7WEf8Q+kYJkOc47ytngg1IuZobCngdTjAgY83JWEogippge5O5fplaQlw==
-
-"@types/humanize-duration@^3.25.1":
-  version "3.25.1"
-  resolved "https://registry.npmjs.org/@types/humanize-duration/-/humanize-duration-3.25.1.tgz#b6140d5fc00ff3917b3f521784abef4bc0387ccc"
-  integrity sha512-WZU/4bb+lvzyDmZzjJtp++9mfKy6B3lH6gGISgkcz6SU8hMILKRM0vi08TxIsb0dQB4Gzo68MWLmctu6xqUi9g==
+"@types/humanize-duration@^3.18.1", "@types/humanize-duration@^3.25.1":
+  version "3.27.4"
+  resolved "https://registry.npmjs.org/@types/humanize-duration/-/humanize-duration-3.27.4.tgz#51d6d278213374735440bc3749de920935e9127e"
+  integrity sha512-yaf7kan2Sq0goxpbcwTQ+8E9RP6HutFBPv74T/IA/ojcHKhuKVlk2YFYyHhWZeLvZPzzLE3aatuQB4h0iqyyUA==
 
 "@types/inquirer@^7.3.1":
   version "7.3.1"
@@ -18298,9 +18293,9 @@ human-signals@^5.0.0:
   integrity sha512-AXcZb6vzzrFAUE61HnN4mpLqd/cSIwNQjtNWR0euPm6y0iqx3G4gOXaIDdtdDwZmhwe82LA6+zinmW4UBWVePQ==
 
 humanize-duration@^3.25.1, humanize-duration@^3.26.0, humanize-duration@^3.27.0:
-  version "3.27.0"
-  resolved "https://registry.npmjs.org/humanize-duration/-/humanize-duration-3.27.0.tgz#3f781b7cf8022ad587f76b9839b60bc2b29636b2"
-  integrity sha512-qLo/08cNc3Tb0uD7jK0jAcU5cnqCM0n568918E7R2XhMr/+7F37p4EY062W/stg7tmzvknNn9b/1+UhVRzsYrQ==
+  version "3.32.1"
+  resolved "https://registry.npmjs.org/humanize-duration/-/humanize-duration-3.32.1.tgz#922beff5da36fb1cee3de26ada24c592b0fe519b"
+  integrity sha512-inh5wue5XdfObhu/IGEMiA1nUXigSGcaKNemcbLRKa7jXYGDZXr3LoT9pTIzq2hPEbld7w/qv9h+ikWGz8fL1g==
 
 humanize-ms@^1.2.1:
   version "1.2.1"
