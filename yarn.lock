@@ -13351,11 +13351,6 @@ crypto-random-string@^4.0.0:
   dependencies:
     type-fest "^1.0.1"
 
-crypto@1.0.1:
-  version "1.0.1"
-  resolved "https://registry.npmjs.org/crypto/-/crypto-1.0.1.tgz#2af1b7cad8175d24c8a1b0778255794a21803037"
-  integrity sha512-VxBKmeNcqQdiUQUW2Tzq0t377b54N2bMtXO/qiLa+6eRRmmC4qT3D4OnTGoT/U6O9aklQ/jTwbOtRMTTY8G0Ig==
-
 css-box-model@^1.2.0:
   version "1.2.1"
   resolved "https://registry.npmjs.org/css-box-model/-/css-box-model-1.2.1.tgz#59951d3b81fd6b2074a62d49444415b0d2b4d7c1"
@@ -20101,12 +20096,11 @@ jest-snapshot@^26.6.2:
     pretty-format "^26.6.2"
     semver "^7.3.2"
 
-jest-transform-yaml@^0.1.1:
-  version "0.1.1"
-  resolved "https://registry.npmjs.org/jest-transform-yaml/-/jest-transform-yaml-0.1.1.tgz#829bfa58e962d37ad1509e018791b469a8b9e92b"
-  integrity sha512-4UPmA5xs364ifqJTdnfepNMmdYL/OrjUMkWGPZndcZ1s3vUDSu0UuSe5ZrpDd7/7syb8j7JKR8D5vLec2XGNQQ==
+jest-transform-yaml@^1.1.2:
+  version "1.1.2"
+  resolved "https://registry.npmjs.org/jest-transform-yaml/-/jest-transform-yaml-1.1.2.tgz#3c864915d87cede408218bf39cd8c6f399c663ad"
+  integrity sha512-D/Z47HaB02pI3lIRt1F9io2/D/twB+7vLxBVo+P2HgeiETCtLtEk6DZdEoItfi6KDqVJIuUzb830hOsiY/NFiw==
   dependencies:
-    crypto "1.0.1"
     js-yaml "4.1.0"
 
 jest-util@^26.6.2:
