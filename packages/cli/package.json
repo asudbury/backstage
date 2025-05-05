@@ -55,7 +55,7 @@
     "@typescript-eslint/parser": "^v4.28.3",
     "@yarnpkg/lockfile": "^1.1.0",
     "babel-plugin-dynamic-import-node": "^2.3.3",
-    "bfj": "^7.0.2",
+    "bfj": "^9.1.2",
     "buffer": "^6.0.3",
     "chalk": "^5.4.1",
     "chokidar": "^3.3.1",
